@@ -1,0 +1,30 @@
+{
+    "name": "nutikasdarktheme",
+    "displayName": "NutikasDarkTheme",
+    "description": "Dark theme with pastel and neon colors",
+    "publisher": "Nutikas",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "nutikas",
+        "theme",
+        "dark theme",
+        "dark",
+        "pastel",
+        "neon"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NutikasDark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NutikasDark-color-theme.json"
+            }
+        ]
+    }
+}
